@@ -1,0 +1,147 @@
+body {
+
+    text-align: center;
+    padding: 0 25px;
+    font-family: lato, arial, sans-serif;
+}
+
+#main, #chats{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    background: aliceblue;
+    padding: 2em;
+    border: 1em solid white;
+    border-radius: 2em;
+    overflow-wrap:break-word;
+}
+
+#chats{
+    padding:10px;
+}
+
+#main h1 {
+    margin-top: 0;
+    font-size: 35px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#main h1 span {
+    font-style:italic;
+}
+
+#main ul {
+    padding-left: 20px;
+}
+
+#main .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+
+#main .success {
+    margin-top: 25px;
+}
+
+#main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+
+form {
+    padding: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+form input[type=text] {
+    width: 88%;
+    height:7em;
+    font-size: 1em;
+    padding: 1em;
+    border-radius:1em;
+
+}
+
+.chat {
+    border: 1px solid transparent;
+    margin: 0em 1em 0em 1em;
+}
+
+.msg{
+    background-color: white;
+    border: 1px solid white;
+    border-radius:1em;
+    padding:.3em 1em .3em 1em;
+}
+
+.chat .username {
+    font-weight: 800;
+    padding:1em;
+    padding-bottom:0;
+}
+
+.username:hover {
+    color: skyblue;
+}
+
+.spinner {
+    float: right;
+    height: 46px;
+    margin-bottom: 5px;
+}
+
+.spinner img {
+    padding: 10px;
+}
+
+.friend {
+    color: #fff;
+    background-color: #0090da;
+}
+
+select{
+    display:inline-block;
+    width:50%;
+    height:2em;
+    text-overflow: hidden;
+}
+
+#rooms{
+    width:100%;
+}
+
+
+button, .submit, select{
+    border-radius:1em;
+    padding:0 1em;
+    margin-top:1em;
+    background-color:white;
+}
+
+button:hover, .submit:hover{
+    opacity:1;
+}
+
+.submit{
+    opacity:.5;
+    float:right;
+    color:transparent;
+    border: none;
+    background-color:transparent;
+    background:url("img/send.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.time{
+    float:right;
+    font-size:.8em;
+}
+
+h1{
+
+}
